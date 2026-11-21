@@ -60,7 +60,7 @@ const GAMES = [
       "A sandbox parkour playground for testing the movement system behind a future competitive racer. Jump in and mess around with momentum-based vaulting, wall-running, climbing and sliding.",
     platform: "Roblox",
     tags: ["Parkour", "Sandbox"],
-    image: "",
+    image: "assets/overtake.jpg",
     play: "https://www.roblox.com/games/77894032137775/Overtake",
     source: "https://github.com/nikolashuang/Overtake",
     year: 2026,
