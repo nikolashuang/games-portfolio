@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games Portfolio</title>
+  <meta name="description" content="A portfolio of games." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="nav">
+      <span class="logo" id="logo">&gt;_</span>
+      <div class="nav-links">
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a id="nav-github" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+    <div class="hero-inner">
+      <p class="kicker">PLAYER 1 READY</p>
+      <h1 id="site-name">Name</h1>
+      <p class="tagline" id="site-tagline"></p>
+      <div class="stats" id="stats"></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="featured" class="featured"></section>
+
+    <section id="games" class="games-section">
+      <div class="section-head">
+        <h2>All games</h2>
+        <div class="filters" id="filters"></div>
+      </div>
+      <div class="grid" id="grid"></div>
+      <p class="empty" id="empty" hidden>No games match that filter.</p>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About</h2>
+      <p id="site-about"></p>
+      <div class="contact" id="contact"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> <span id="footer-name"></span></span>
+    <span class="press">PRESS START</span>
+  </footer>
+
+  <script src="games.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
