@@ -57,14 +57,14 @@ const GAMES = [
   {
     title: "Overtake",
     description:
-      "A competitive parkour racer built around momentum: vault, wall-run, climb and slide to keep your speed, pick your route, and bump rivals off their line.",
+      "A sandbox parkour playground for testing the movement system behind a future competitive racer. Jump in and mess around with momentum-based vaulting, wall-running, climbing and sliding.",
     platform: "Roblox",
-    tags: ["Parkour", "Racing", "Multiplayer"],
+    tags: ["Parkour", "Sandbox"],
     image: "",
-    play: "",
+    play: "https://www.roblox.com/games/77894032137775/Overtake",
     source: "https://github.com/nikolashuang/Overtake",
     year: 2026,
-    status: "In development",
+    status: "Playtest",
     featured: false,
   },
 ];
