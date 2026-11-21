@@ -36,10 +36,10 @@ const GAMES = [
     platform: "Roblox",
     tags: ["Strategy", "Turn-based", "Roguelike"],
     image: "assets/shotgun-chess.jpg",
-    play: "",
+    play: "https://www.roblox.com/games/71971500455373/Shotgun-Chess",
     source: "https://github.com/nikolashuang/Shotgun-Chess",
     year: 2026,
-    status: "In development",
+    status: "Demo",
     featured: true,
   },
   {
